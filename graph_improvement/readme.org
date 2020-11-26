@@ -1,0 +1,22 @@
+#+Title: Graph experiment
+#+Author: Louis Boulanger
+
+* Original graph
+I found this graph on the website of the Mairie de la Clusaz:
+
+[[./original.jpg]]
+
+Some criticisms for this graph:
+- The y axis starts at 800
+- The years are not spaced according to the time between each date,
+  leading to an evolution that isn't representative of the truth
+
+* New graph
+I made the new graph in R using [[./clusaz.org][this file]], containing the instructions
+to reproduce the graph; as well as the [[./data.txt][data]], taken directly from the
+graph. I removed from the data the date far into the past, as it is
+not relevant for the graph.
+
+[[./result.png]]
+
+
